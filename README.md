@@ -22,9 +22,9 @@ $ pip install Topsis_Diksha_102016116
 weights : [1,1,1,1,1]
 impacts : [+,-,+,-,+]
 
-**input:** 102016116.csv
+**input:** 102016116-data.csv
 ```s
-python -m  Topsis_Diksha_102016116.topsis102016116 "C:\Users\Diksha\Downloads\102016116.csv" "1,1,1,1,1" "+,-,+,-,+" "C:\Users\Diksha\Downloads\102016116-result.csv"
+python -m  Topsis_Diksha_102016116.topsis102016116 "C:\Users\Diksha\Downloads\102016116-data.csv" "1,1,1,1,1" "+,-,+,-,+" "C:\Users\Diksha\Downloads\102016116-result.csv"
 ```
 
 **output:** 102016116-result.csv
