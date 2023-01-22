@@ -8,6 +8,8 @@ Install the Package using the command -
 $ pip install Topsis_Diksha_102016116
 ```
 
+## Usage
+python3 -m Topsis_Diksha_102016116.topsis102016116 102017010.csv "1,1,1,2,1" "+,+,-,+,+" 102017010-result.csv
 ## License
 
 MIT
