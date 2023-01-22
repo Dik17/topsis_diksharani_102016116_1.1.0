@@ -9,7 +9,7 @@ $ pip install Topsis_Diksha_102016116
 ```
 
 ## Usage
-python3 -m Topsis_Diksha_102016116.topsis102016116 102017010.csv "1,1,1,2,1" "+,+,-,+,+" 102017010-result.csv
+python3 -m Topsis_Diksha_102016116.topsis102016116 102016116.csv "1,1,1,2,1" "+,+,-,+,+" 102016116-result.csv
 ## License
 
 MIT
