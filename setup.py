@@ -1,10 +1,22 @@
+
 from distutils.core import setup
+
+
+def readme():
+    with open("README.md") as f:
+        README = f.read()
+    return README
+
+
 setup(
   name = 'Topsis_Diksha_102016116',         # How you named your package folder (MyLib)
   packages = ['Topsis_Diksha_102016116'],   # Chose the same as "name"
   version = '0.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
-  description = 'TOPSIS method for multi-criteria decision making',   # Give a short description about your library
+  description="TOPSIS method for multi-criteria decision making",
+  long_description=readme(),
+  long_description_content_type="text/markdown",
+   # Give a short description about your library
   author = 'Diksha Rani',                   # Type in your name
   author_email = 'rodiksha218@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/Dik17/topsis_diksharani_102016116_1.1.0',   # Provide either the link to your github or to your website
